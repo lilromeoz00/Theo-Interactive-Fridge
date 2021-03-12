@@ -52,7 +52,7 @@ def resizeV(path):
                     pa = r'C:/Users/jordan/CFP_Data'
                     rt = os.path.join(pa, 'RVal/{}'.format(z))
                     os.mkdir(rt)
-                    # I made the RTrain folder myself and it worked
+                    # I made the RVal folder myself and it worked
             for i, filename in enumerate(os.listdir(person_path)):
         
                 image_path = os.path.join(person_path, filename)
